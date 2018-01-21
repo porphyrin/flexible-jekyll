@@ -3,13 +3,13 @@ title: Project Page
 description: > # this means to ignore newlines until "baseurl:"
   Data Science project and blog page.
 permalink: ':title/'
-baseurl: "/projects"
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://porphyrin.github.io"
 
 # Author Settings
 author: Olivia Warren
 author-img: ow_headshot.jpg
-about-author: >
+about-author: |
   Data Scientist
   Ex-Management Consultant
   Biotech Nerd
