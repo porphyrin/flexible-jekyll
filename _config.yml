@@ -4,23 +4,26 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://porphyrin.github.io"
-site-twitter: #if your site has a twitter account, enter it here
+# site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Olivia Warren
 author-img: ow_headshot.jpg
-about-author: Data Scientist. Python enthusiast. Biotech nerd.
+about-author:
+Data Scientist.
+Python enthusiast.
+Biotech nerd.
 github: porphyrin
 linkedin: olivia-warren
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
-email: # add your Email address
+# twitter: # add your Twitter handle
+# facebook: # add your Facebook handle
+# email: # add your Email address
 
 # Disqus
-discus-identifier: # add your discus identifier
+# discus-identifier: # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+# analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
