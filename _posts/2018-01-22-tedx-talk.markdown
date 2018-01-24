@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TEDx Claremont Colleges Talk
+title: TEDx Talk - When 2+2 Equals Green
 date: 2015-07-24 13:32:20 +0300
 description: # None for now.
 img: tedx.png
@@ -17,5 +17,4 @@ how people who naturally interpret our world differently can sometimes possess v
 Huge thanks to my incredible TEDx mentor Syd Peterson (pictured above), and to the TEDx Claremont Colleges team for
 organizing and managing the event!
 
-## When 2+2 Equals Green - TEDx Claremont Colleges 2015
 {% include youtubePlayer.html id="jdtJu_DaZEw" %}
