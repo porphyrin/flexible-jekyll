@@ -59,30 +59,30 @@ without anything else that might distract.**
 
 
 ## Graphs are great! Except when they're not.
-We’ve all those imposter-syndrome moments during meetings where we sat
+We’ve all had those imposter-syndrome moments during meetings where we sat
 staring at a complicated architecture diagram, or someone’s modeling results, thinking “I don’t get this… man, do I
 feel dumb right now." This holds especially true for senior folks, who naturally feel more
 pressure to be a voice of leadership in the room.
 
->Meetings tend to go off the rails quickly when someone feels defensive, and there is no quicker way to feel defensive
-than not understanding a graph or a result.
+>Meetings tend to go off the rails quickly when someone feels defensive, and **there is no quicker way to feel defensive
+than not understanding a graph or a result.**
 
-So, practice empathy for your future audience when building your slides. For every graphic or result that you include,
-review it and re-review it through the lens of “what would someone with no background in this data need to understand
-this?” Are the axis labels clear? Is the graph easily interpretable?
+To avoid this, practice empathy for your future audience when building your slides. For every graphic or result that you
+include, review it and re-review it through the lens of “what would someone with no background in this data need to
+understand this?” Are the axis labels clear? Is the graph easily interpretable?
 
-Best yet is to phone a friend! For important presentations, I strongly recommend asking a colleague who isn't familiar
-with the underlying dataset to review your slides ahead of time. Do they understand what you're hoping to communicate?
+Even better is to phone a friend! For important presentations, I strongly recommend asking a colleague who isn't familiar
+with the underlying data to review your slides ahead of time. Do they understand what you're hoping to communicate?
 
 
 ## But, don't conflate clarity and verbosity.
 While we want the context and methodology to be clear to our audience, it's important not to stray into
 "drowning in details" territory. Often what I need to grasp an analysis is a succinct, high-level description;
-overly detailed descriptions of the precise math behind the model distract from the meaning of the results,
+overly detailed descriptions of the precise math behind the model often distract from the meaning of the results,
 and will quickly lose your audience.
 
-**I advise focusing on the *need* part of the previous question of
-“what would someone with no background in this data need to understand this?”**
+>Focus instead on the **"need"** part of the previous question of
+“what would someone with no background in this data need to understand these results?”
 
 
 ## Spend at least *some* time on slide design.
