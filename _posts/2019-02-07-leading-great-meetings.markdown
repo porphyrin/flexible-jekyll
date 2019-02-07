@@ -14,7 +14,7 @@ communicating complex material. Given the degree of practice I had from consulti
 recent presentation had gone so poorly. But what if I hadn't applied those same preparation processes to
 this presentation? As it turns out, I hadn't.
 
->Leading up that presentation, I spent 95% of my time on the technical stuff: loading data,
+>Leading up to that presentation, I spent 95% of my time on the technical stuff: loading data,
 cleaning data, modeling data, testing, and generating results. I spent the remaining 5% hastily pasting
 the outputs of my model into a slide deck.
 
@@ -28,7 +28,7 @@ Data Science.
 
 
 ## Lead with the "why."
-You analysis is awesome, and you want to dive right in. As tempting as it is to lead with the cool insights that
+Your analysis is awesome, and you want to dive right in. As tempting as it is to lead with the cool insights that
 you've uncovered, lead instead with the *reason* for holding the meeting.
 
 >Get people engaged right out of the gate with a clear, human-readable explanation of why everyone is in the meeting
@@ -36,7 +36,7 @@ together, and set the goals for what your team should accomplish during the time
 **defining a “goal” in a text box somewhere on the introductory slide is often instrumental in setting up successful
 meetings.**
 
-So why lead with the "why?" Imagine you've been meeting hopping all day, and your calendar pings you with a
+So why lead with the "why?" Imagine you've been meeting-hopping all day, and your calendar pings you with a
 reminder for a meeting in 5 minutes. Wait, what was that meeting about again? Chances are you haven't read the
 meeting description since you accepted the invite a week ago. Maybe you didn't even read it then. In these cases,
 it's incredibly helpful to have someone set a clear definition of the purpose and objectives right at the start, and get
@@ -44,14 +44,14 @@ everyone aligned on the meeting goal.
 
 
 ## State assumptions and disclaimers *before* showing any analysis.
-One thing I learned the hard way is that the second that you put a graph or a table of results in front of your
+One thing I learned the hard way is that the moment that you put a graph or a table of results in front of your
 audience, you irreversibly lose a significant portion of their attention to that visual stimuli. So it follows
 that if you're explaining important caveats and assumptions implicit in your data, people may not hear
 you if they have a beautiful graph or table to steal their attention away.
 
 >And this is where things get dangerous. Every analysis comes with warnings and disclaimers about how to interpret,
 and how NOT to interpret, the results. If the warnings aren't clear, folks can (and will) leave the meeting with
-conclusions that aren't true.
+faulty conclusions.
 
 It's incredibly important to present this information in a way that maximizes the chances that people hear it. For this
 reason I recommend **dedicating a entire slide to detailing the warnings and assumptions implicit in the analysis,
@@ -71,13 +71,14 @@ To avoid this, practice empathy for your future audience when building your slid
 include, review it and re-review it through the lens of “what would someone with no background in this data need to
 understand this?” Are the axis labels clear? Is the graph easily interpretable?
 
-Even better is to phone a friend! For important presentations, I strongly recommend asking a colleague who isn't familiar
-with the underlying data to review your slides ahead of time. Do they understand what you're hoping to communicate?
+Even better is to phone a friend! For important presentations, I strongly recommend asking a colleague who isn't
+familiar with the underlying data to review your slides ahead of time. Do they understand what you're hoping to
+communicate?
 
 
-## But, don't conflate clarity and verbosity.
+## Having said that... don’t mistake verbosity for clarity.
 While we want the context and methodology to be clear to our audience, it's important not to stray into
-"drowning in details" territory. Often what I need to grasp an analysis is a succinct, high-level description;
+"drowning in details" territory. Often what’s needed to grasp an analysis is a succinct, high-level description;
 overly detailed descriptions of the precise math behind the model often distract from the meaning of the results,
 and will quickly lose your audience.
 
@@ -87,7 +88,7 @@ and will quickly lose your audience.
 
 ## Spend at least *some* time on slide design.
 As a woman working in a male-dominated industry, I *still* feel slightly self-conscious when I'm tweaking the color
-scheme on a slide instead of writing code. **But I'm nevertheless convinced that people are more engaged in meetings
+scheme on a slide instead of writing code. **I'm nevertheless convinced that people are more engaged in meetings
 where they like looking at the material being projected,** and engagement is paramount.
 
 >This isn't to say you need to go crazy on aligning every detail on the slide, or picking the absolute perfect font
@@ -96,7 +97,7 @@ their inbox is more visually appealing than your slides.
 
 
 ## Phrase your follow-ups.
-You just presented a clear and compelling analysis, and your audience is bought in and excited. Nice work!
+You just presented a clear and compelling analysis, and your audience is bought-in and is excited. Nice work!
 
 This is the time where the requests for follow-up work will likely pop up. In the moment, it's easy to get caught up
 and agree to a ton of new work. This topic could easily warrant its own post, but for now, I offer the following tips:
@@ -108,13 +109,13 @@ where communication could break down here? I have seen friction arise when an en
 time consuming, ask as "easy" only to have a business-side consumer assume that meant the task would be quick.
 
 **2. Manage potential scope creep with kindness.**
-Don't be afraid to ask for follow up meetings to discuss an ask, rather than agreeing to it outright, to ease the optics
+Don't be afraid to ask for follow-up meetings to discuss an ask, rather than agreeing to it outright, to ease the optics
 of publicly saying "no" to an ask from another team.
 
 
 ## And that's it!
-The short version of the points above is to design your meetings, and presentations, with empathy for those who you'll
-be presenting to. If you put yourself in their shoes, and aim to build material that is clear and easy to engage with,
-the results will follow.
+The short version of the points above is to design meetings and presentations with empathy for your target audiences.
+If you put yourself in their shoes, and aim to build material that is clear and easy to engage with, the results
+will follow.
 
 May the force be with you, and the next amazing meeting that you lead!
