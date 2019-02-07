@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Key to Leading Great Meetings as a Data Scientist? Empathy.
+title: The Secret to Leading Great Meetings as a Data Scientist? Empathy.
 date: 2019-02-07 11:32:20 +0300
 description: Road-tested tips and tricks to engage your audience on technical topics
 img: chaos.jpg
