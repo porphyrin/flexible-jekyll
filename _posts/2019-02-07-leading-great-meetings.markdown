@@ -4,15 +4,15 @@ title: The Secret to Leading a Great Data-Centric Meeting? Empathy.
 date: 2019-02-07 11:32:20 +0300
 description: Road-tested tips and tricks to engage your audience while presenting data
 img: chaos.jpg
-tags: [technical leadership, productivity]
+tags: [leadership, productivity, presentations]
 ---
 During my first weeks working as a Data Scientist, I stepped in front of my company's C-Suite with data that highlighted
 an opportunity to dramatically improve our factory operations. The presentation completely missed the mark; the call
 to action that I saw so clearly in the data just didn't come across to its audience.
 
-I walked out of the meeting feeling confused, and wondered if I had just wasted everyone's time. I was also surprised,
+I walked out of the meeting feeling disappointed, and wondered if I had just wasted everyone's time. I was also surprised,
 because I was proud of the analysis I had presented. I had carefully built the model and vetted the results,
-and the results were compelling. How could things have gone wrong with all of that effort? And then it hit me.
+and the results were compelling. How could things have gone wrong with all of that effort? I considered my approach.
 
 >Leading up to that presentation, I spent 95% of my time on the technical work, and the remaining 5% copying and pasting
 the outputs of my model into a slide deck. **Virtually all of my preparation was spent on the data, and almost none
@@ -85,13 +85,14 @@ and will quickly lose your audience.
 
 
 ## 5) Spend at least *some* time on slide design.
-As a woman working in a male-dominated industry, I often feel self-conscious when I'm tweaking the color
-scheme on a slide instead of writing code. **I'm nevertheless convinced that people are more engaged
+As a woman working in a male-dominated industry, I often feel self-conscious when I'm optimizing the visual impact of
+my data and slides instead of writing code. **I'm nevertheless convinced that people are more engaged
 when they like looking at the material being projected.** And engagement is paramount to a productive meeting.
 
->This isn't to say that you need to go crazy aligning every detail on the slides, or picking the perfect font style.
-But **if your slides are more visually appealing than your audience's email inboxes, chances are that's where they'll
-keep their attention.**
+This isn't to say that you need to go crazy aligning every detail on the slides, or picking the perfect font style, but:
+
+>**Chances are you'll capture and keep your audience's attention if your slides are more visually appealing than
+their email boxes.**
 
 
 ## 6) Phrase your follow-ups.
