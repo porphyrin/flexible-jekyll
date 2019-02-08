@@ -6,24 +6,26 @@ description: Road-tested tips and tricks to engage your audience while presentin
 img: chaos.jpg
 tags: [technical leadership, productivity]
 ---
-During my first year working as a Data Scientist, I bombed a presentation in front of my company's entire C-Suite.
+During my first weeks working as a Data Scientist, I stepped in front of my company's C-Suite with data that highlighted
+an opportunity to dramatically improve our factory operations. The presentation completely missed the mark; the call
+to action that I saw so clearly in the data just didn't come across to its audience.
 
-I walked out of the meeting feeling crushed, and like I had just wasted everyone's time. But I was also surprised.
-I had spent a week on the analysis, building the model and carefully vetting the results. How could things have gone
-wrong with all of that effort? And then it hit me.
+I walked out of the meeting feeling confused, and wondered if I had just wasted everyone's time. I was also surprised,
+because I was proud of the analysis I had presented. I had carefully built the model and vetted the results,
+and the results were compelling. How could things have gone wrong with all of that effort? And then it hit me.
 
->Leading up to that presentation, I spent 95% of my time on the technical work, and the remaining 5% on hastily pasting
+>Leading up to that presentation, I spent 95% of my time on the technical work, and the remaining 5% copying and pasting
 the outputs of my model into a slide deck. **Virtually all of my preparation was spent on the data, and almost none
 of it on the people who would be in the meeting to discuss it.** No wonder things had gone wrong!
 
 There is reason for the hype surrounding "data-driven decisions" in industry; data is powerful stuff. But data can't
 work its magic unless it is communicated effectively to its audience. In this post I outline 6 tips for
-leading clear, effective meetings where data is being presented, to make sure that your data is making the incredible
+leading clear, effective meetings where data is being presented, to make sure that your data is making the critical
 impact that it can.
 
 
 ## 1) Lead with the "why."
-Your analysis is awesome, and you want to dive right in. As tempting as it is to lead with the cool insights that
+Your analysis is awesome, and you want to dive right in. As tempting as it is to lead with the great insights that
 you've uncovered, lead instead with the *reason* for holding the meeting.
 
 >Get people engaged right out of the gate with a clear, human-readable explanation of why everyone is in the meeting
@@ -31,10 +33,10 @@ together, and set the goals for what your team should accomplish during the time
 defining a “goal” in a text box somewhere on the introductory slide is often instrumental in setting up successful
 meetings.**
 
-So why lead with the "why?" Imagine you've been meeting-hopping all day, and your calendar pings you with a
+Why lead with the "why?" Imagine you've been meeting-hopping all day, and your calendar pings you with a
 reminder for a meeting in 5 minutes. Wait, what was that meeting about again? Chances are you haven't read the
 meeting description since you accepted the invite a week ago. Maybe you didn't even read it then. In these cases,
-it's incredibly helpful to have someone set a clear definition of the purpose and objectives right at the start, and get
+it's very helpful to have someone set a clear definition of the purpose and objectives right at the start, and get
 everyone aligned on the meeting goal.
 
 
@@ -48,7 +50,7 @@ you if they have a beautiful graph or table to steal their attention away.
 and how NOT to interpret, the results. **If the warnings aren't clear, folks can (and will) leave the meeting with
 faulty conclusions.**
 
-It's incredibly important to present this information in a way that maximizes the chances that people hear it. For this
+It's vital to present this information in a way that maximizes the chances that people hear it. For this
 reason I recommend **dedicating an entire slide to detailing the warnings and assumptions implicit in the analysis,
 without anything else that might distract from it.**
 
@@ -83,9 +85,9 @@ and will quickly lose your audience.
 
 
 ## 5) Spend at least *some* time on slide design.
-As a woman working in a male-dominated industry, I always feel self-conscious when I'm tweaking the color
-scheme on a slide instead of writing code. **I'm nevertheless convinced that people are more engaged in meetings
-where they like looking at the material being projected.** And engagement is paramount to a productive meeting.
+As a woman working in a male-dominated industry, I often feel self-conscious when I'm tweaking the color
+scheme on a slide instead of writing code. **I'm nevertheless convinced that people are more engaged
+when they like looking at the material being projected.** And engagement is paramount to a productive meeting.
 
 >This isn't to say that you need to go crazy aligning every detail on the slides, or picking the perfect font style.
 But **if your slides are more visually appealing than your audience's email inboxes, chances are that's where they'll
@@ -100,8 +102,8 @@ and agree to a ton of new work, especially with the excited energy in the room. 
 own post, but for now, I offer the following tips:
 
 **1. Avoid language that means different things to different people.**
-My favorite example is the word "easy." Technical folks typically use the word "easy" to mean "oh yeah, that is a thing
-that is physically possible for us to do." Non-technical folks often use "easy" to mean "we can do that quickly." See
+My favorite example is the word "easy." Technical folks typically use the word "easy" to mean "oh yeah, that is
+technically possible for us to do." Non-technical folks often use "easy" to mean "we can do that quickly." See
 the danger here? From personal experience, I can attest that friction arises when an engineer describes a mundane, but
 very time consuming, ask as "easy" only to have a business-side consumer assume that means the task will be quick. You
 can imagine the frustration when the two parties realize the miscommunication.
