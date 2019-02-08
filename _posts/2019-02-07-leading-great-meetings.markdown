@@ -1,30 +1,31 @@
 ---
 layout: post
-title: The Secret to Leading Great Meetings as a Data Scientist? Empathy.
+title: The Secret to Leading a Great Data-Centric Meeting? Empathy.
 date: 2019-02-07 11:32:20 +0300
-description: Road-tested tips and tricks to engage your audience on technical topics
+description: Road-tested tips and tricks to engage your audience while presenting data
 img: chaos.jpg
 tags: [technical leadership, productivity]
 ---
-During my first year working as a Data Scientist, I bombed a presentation in front of my company's entire C-Suite team.
+During my first year working as a Data Scientist, I bombed a presentation in front of my company's entire C-Suite.
 
 I walked out of the meeting feeling crushed, and like I had just wasted everyone's time. But I was also surprised.
-In my prior life as a management consultant I worked with and learned from managers who had mastered the art of
-communicating complex material. Given the degree of practice I had from consulting, it surprised me that this most
-recent presentation had gone so poorly. But what if I hadn't applied those same preparation processes to
-this presentation? As it turns out, I hadn't.
+In my prior life as a management consultant, I worked alongside managers who had mastered the art of
+communicating complex material to technical and non-technical audiences alike. Given the degree of practice I had from
+consulting, it surprised me that this most recent presentation had gone so poorly. And then it hit me: what if I hadn't
+applied those same preparation processes to this presentation? As it turns out, I hadn't.
 
->Leading up to that presentation, I spent 95% of my time on the technical stuff: loading data,
+>Leading up to that presentation, **I spent 95% of my time on the technical stuff**: loading data,
 cleaning data, modeling data, testing, and generating results. I spent the remaining 5% hastily pasting
 the outputs of my model into a slide deck.
 
 No wonder things had gone wrong! I've observed that in industry, communicating our results often takes a backseat.
-Sometimes we don't need to communicate outside of our teams, but in the times that we do, this can lead to some
-troubling outcomes.
+While it's true that there are times when we don't need to communicate outside of our own team, de-prioritizing
+communication can lead to some troubling outcomes in the times that we do.
 
-In this post, I outline some quick tips for leading clear, effective meetings as a Data Scientist. While the post is
-geared towards Data Scientists, I've tried to write the post such that the techniques can be generalized outside of
-Data Science.
+In this post, I outline some quick tips for leading clear, effective meetings where the goal is to present data and
+inspire action based on the data being discussed. While the post is primarily geared towards Data Scientists, I've
+tried to write it such that the techniques can be generalized outside of Data Science (e.g., Product Management,
+Business Intelligence, Sales Engineering, etc).
 
 
 ## Lead with the "why."
@@ -50,12 +51,12 @@ that if you're explaining important caveats and assumptions implicit in your dat
 you if they have a beautiful graph or table to steal their attention away.
 
 >And this is where things get dangerous. Every analysis comes with warnings and disclaimers about how to interpret,
-and how NOT to interpret, the results. If the warnings aren't clear, folks can (and will) leave the meeting with
-faulty conclusions.
+and how NOT to interpret, the results. **If the warnings aren't clear, folks can (and will) leave the meeting with
+faulty conclusions.**
 
 It's incredibly important to present this information in a way that maximizes the chances that people hear it. For this
 reason I recommend **dedicating an entire slide to detailing the warnings and assumptions implicit in the analysis,
-without anything else that might distract.**
+without anything else that might distract from it.**
 
 
 ## Graphs are great! Except when they're not.
@@ -69,7 +70,8 @@ than not understanding a graph or a result.**
 
 To avoid this, practice empathy for your future audience when building your slides. For every graphic or result that you
 include, review it and re-review it through the lens of “what would someone with no background in this data need to
-understand this?” Are the axis labels clear? Is the graph easily interpretable?
+understand this?” Are the axis labels clear? Is the graph easily interpretable? Is a moving average graph with no
+explanation of its physical meaning really fair to this audience?
 
 Even better is to phone a friend! For important presentations, I strongly recommend asking a colleague who isn't
 familiar with the underlying data to review your slides ahead of time. Do they understand what you're hoping to
@@ -87,30 +89,37 @@ and will quickly lose your audience.
 
 
 ## Spend at least *some* time on slide design.
-As a woman working in a male-dominated industry, I *still* feel slightly self-conscious when I'm tweaking the color
+As a woman working in a male-dominated industry, I always feel self-conscious when I'm tweaking the color
 scheme on a slide instead of writing code. **I'm nevertheless convinced that people are more engaged in meetings
-where they like looking at the material being projected,** and engagement is paramount.
+where they like looking at the material being projected.** And engagement is paramount to a productive meeting.
 
 >This isn't to say that you need to go crazy aligning every detail on the slides, or picking the perfect font style.
-But if your slides are more visually appealing than your audience's email inbox, chances are that's where they'll
-keep their attention.
+But **if your slides are more visually appealing than your audience's email inboxes, chances are that's where they'll
+keep their attention.**
 
 
 ## Phrase your follow-ups.
 You just presented a clear and compelling analysis, and your audience is bought-in and excited. Nice work!
 
-This is the time where the requests for follow-up work will likely pop up. In the moment, it's easy to get caught up
-and agree to a ton of new work. This topic could easily warrant its own post, but for now, I offer the following tips:
+This is the time when requests for follow-up work will likely pop up. In the moment, it's easy to get caught up
+and agree to a ton of new work, especially with the excited energy in the room. This topic could easily warrant its
+own post, but for now, I offer the following tips:
 
 **1. Avoid language that means different things to different people.**
 My favorite example is the word "easy." Technical folks typically use the word "easy" to mean "oh yeah, that is a thing
 that is physically possible for us to do." Non-technical folks often use "easy" to mean "we can do that quickly." See
-where communication could break down here? I have seen friction arise when an engineer described a mundane, but very
-time consuming, ask as "easy" only to have a business-side consumer assume that meant the task would be quick.
+the danger here? From personal experience, I can attest that friction arises when an engineer describes a mundane, but
+very time consuming, ask as "easy" only to have a business-side consumer assume that means the task will be quick. You
+can imagine the frustration when the two parties realize the miscommunication.
 
-**2. Manage potential scope creep with kindness.**
-Don't be afraid to ask for follow-up meetings to discuss an ask, rather than agreeing to it outright, to ease the optics
-of publicly saying "no" to an ask from another team.
+**2. Proactively and gracefully manage scope creep.**
+Saying "no" to an ask for follow-up work is as much art as it is skill. We want to help our colleagues out, and saying
+"no" can easily feel like the antithesis of being a team player. But as many wise people have pointed out, saying "yes"
+to one task means saying "no" to another. If the follow-up work is out of scope, or will delay work that is higher
+priority for your company, resist the strong temptation to immediately agree to it. If your company culture allows it,
+diplomatically reject the follow-up ask, while explaining your competing priorities. If however you work on a team where
+saying "no" in a public setting is not the norm, I recommend setting up a private follow-up meeting to discuss the
+work being proposed, and what priorities might out-compete it.
 
 
 ## And that's it!
