@@ -9,32 +9,26 @@ tags: [technical leadership, productivity]
 During my first year working as a Data Scientist, I bombed a presentation in front of my company's entire C-Suite.
 
 I walked out of the meeting feeling crushed, and like I had just wasted everyone's time. But I was also surprised.
-In my prior life as a management consultant, I worked alongside managers who had mastered the art of
-communicating complex material to technical and non-technical audiences alike. Given the degree of practice I had from
-consulting, it surprised me that this most recent presentation had gone so poorly. And then it hit me: what if I hadn't
-applied those same preparation processes to this presentation? As it turns out, I hadn't.
+I had spent a week on the analysis, building the model and carefully vetting the results. How could things have gone
+wrong with all of that effort? And then it hit me.
 
->Leading up to that presentation, **I spent 95% of my time on the technical stuff**: loading data,
-cleaning data, modeling data, testing, and generating results. I spent the remaining 5% hastily pasting
-the outputs of my model into a slide deck.
+>Leading up to that presentation, I spent 95% of my time on the technical work, and the remaining 5% on hastily pasting
+the outputs of my model into a slide deck. **Virtually all of my preparation was spent on the data, and almost none
+of it on the people who would be in the meeting to discuss it.** No wonder things had gone wrong!
 
-No wonder things had gone wrong! I've observed that in industry, communicating our results often takes a backseat.
-While it's true that there are times when we don't need to communicate outside of our own team, de-prioritizing
-communication can lead to some troubling outcomes in the times that we do.
-
-In this post, I outline some quick tips for leading clear, effective meetings where the goal is to present data and
-inspire action based on the data being discussed. While the post is primarily geared towards Data Scientists, I've
-tried to write it such that the techniques can be generalized outside of Data Science (e.g., Product Management,
-Business Intelligence, Sales Engineering, etc).
+There is reason for the hype surrounding "data-driven decisions" in industry; data is powerful stuff. But data can't
+work its magic unless it is communicated effectively to its audience. In this post I outline 6 tips for
+leading clear, effective meetings where data is being presented, to make sure that your data is making the incredible
+impact that it can.
 
 
-## Lead with the "why."
+## 1) Lead with the "why."
 Your analysis is awesome, and you want to dive right in. As tempting as it is to lead with the cool insights that
 you've uncovered, lead instead with the *reason* for holding the meeting.
 
 >Get people engaged right out of the gate with a clear, human-readable explanation of why everyone is in the meeting
-together, and set the goals for what your team should accomplish during the time. As heavy-handed as it sounds,
-**defining a “goal” in a text box somewhere on the introductory slide is often instrumental in setting up successful
+together, and set the goals for what your team should accomplish during the time. **As heavy-handed as it sounds,
+defining a “goal” in a text box somewhere on the introductory slide is often instrumental in setting up successful
 meetings.**
 
 So why lead with the "why?" Imagine you've been meeting-hopping all day, and your calendar pings you with a
@@ -44,7 +38,7 @@ it's incredibly helpful to have someone set a clear definition of the purpose an
 everyone aligned on the meeting goal.
 
 
-## State assumptions and disclaimers *before* showing any analysis.
+## 2) State assumptions and disclaimers *before* showing any analysis.
 One thing I learned the hard way is that the moment that you put a graph or a table of results in front of your
 audience, you irreversibly lose a significant portion of their attention to that visual stimuli. So it follows
 that if you're explaining important caveats and assumptions implicit in your data, people may not hear
@@ -59,7 +53,7 @@ reason I recommend **dedicating an entire slide to detailing the warnings and as
 without anything else that might distract from it.**
 
 
-## Graphs are great! Except when they're not.
+## 3) Graphs are great! Except when they're not.
 We’ve all had those imposter-syndrome moments during meetings where we sat
 staring at a complicated architecture diagram, or someone’s modeling results, thinking “I don’t get this… man, do I
 feel dumb right now." This holds especially true for senior folks, who naturally feel more
@@ -78,7 +72,7 @@ familiar with the underlying data to review your slides ahead of time. Do they u
 communicate?
 
 
-## Having said that... don’t mistake verbosity for clarity.
+## 4) Having said that... don’t mistake verbosity for clarity.
 While we want the context and methodology to be clear to our audience, it's important not to stray into
 "drowning in details" territory. Often what’s needed to grasp an analysis is a succinct, high-level description;
 overly detailed descriptions of the precise math behind the model often distract from the meaning of the results,
@@ -88,7 +82,7 @@ and will quickly lose your audience.
 “what would someone with no background in this data need to understand these results?”
 
 
-## Spend at least *some* time on slide design.
+## 5) Spend at least *some* time on slide design.
 As a woman working in a male-dominated industry, I always feel self-conscious when I'm tweaking the color
 scheme on a slide instead of writing code. **I'm nevertheless convinced that people are more engaged in meetings
 where they like looking at the material being projected.** And engagement is paramount to a productive meeting.
@@ -98,7 +92,7 @@ But **if your slides are more visually appealing than your audience's email inbo
 keep their attention.**
 
 
-## Phrase your follow-ups.
+## 6) Phrase your follow-ups.
 You just presented a clear and compelling analysis, and your audience is bought-in and excited. Nice work!
 
 This is the time when requests for follow-up work will likely pop up. In the moment, it's easy to get caught up
