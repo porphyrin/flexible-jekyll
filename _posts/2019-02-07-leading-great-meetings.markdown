@@ -54,7 +54,7 @@ and how NOT to interpret, the results. If the warnings aren't clear, folks can (
 faulty conclusions.
 
 It's incredibly important to present this information in a way that maximizes the chances that people hear it. For this
-reason I recommend **dedicating a entire slide to detailing the warnings and assumptions implicit in the analysis,
+reason I recommend **dedicating an entire slide to detailing the warnings and assumptions implicit in the analysis,
 without anything else that might distract.**
 
 
@@ -91,13 +91,13 @@ As a woman working in a male-dominated industry, I *still* feel slightly self-co
 scheme on a slide instead of writing code. **I'm nevertheless convinced that people are more engaged in meetings
 where they like looking at the material being projected,** and engagement is paramount.
 
->This isn't to say you need to go crazy on aligning every detail on the slide, or picking the absolute perfect font
-style. But I still advocate taking a few spins through your slides, and making sure you don't lose people because
-their inbox is more visually appealing than your slides.
+>This isn't to say that you need to go crazy aligning every detail on the slides, or picking the perfect font style.
+But if your slides are more visually appealing than your audience's email inbox, chances are that's where they'll
+keep their attention.
 
 
 ## Phrase your follow-ups.
-You just presented a clear and compelling analysis, and your audience is bought-in and is excited. Nice work!
+You just presented a clear and compelling analysis, and your audience is bought-in and excited. Nice work!
 
 This is the time where the requests for follow-up work will likely pop up. In the moment, it's easy to get caught up
 and agree to a ton of new work. This topic could easily warrant its own post, but for now, I offer the following tips:
