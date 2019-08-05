@@ -32,3 +32,6 @@ Temporary Items
 .apdisk
 
 .idea
+
+# don't include the virtual environment
+venv
