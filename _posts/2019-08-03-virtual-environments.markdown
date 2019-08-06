@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Introduction to Python Virtual Environments (with Tea!)
+title: Python Virtual Environments, Tea, and You!
 date: 2019-08-03 13:32:20 +0300
 description: # None for now.
 img: tea-cup.jpg
@@ -13,7 +13,7 @@ This post is intended as a gentle introduction to virtual environments for Data 
 improve their development environment game (and read about tea, of course).
 
 ## 1. What is a virtual environment?
-If you Google search "what is a Python virtual environment?" you will find something along the lines of "a tool to
+If you Google search "what is a Python virtual environment" you will find something along the lines of "a tool to
 create isolated Python environments." This isn't a particularly clear definition, so let's talk about tea.
 
 Imagine you invite a friend over for tea. You decide to make chai tea and brew up some black tea, cloves, cinnamon,
@@ -22,7 +22,7 @@ to his cup instead.
 
 We can see that because you and your friend have different dietary requirements, you need slightly different tea
 recipes. You each have the same "version" of tea and spices, but different "versions" of milk. In this case, adding the
-wrong "version" of milk to your friend's cup would have had unfortunate consequences for him!
+wrong "version" of milk to your friend's cup would have unfortunate consequences for him!
 
 > **How is it that you and your friend, with very different dietary requirements, are able to enjoy tea together?
 The answer is that the teacups allowed you to add different versions of ingredients to your own personal teacups.**
@@ -46,7 +46,7 @@ Most tutorials on virtual environments focus on the benefits of keeping your per
 free from painful version-ing conflicts. This is absolutely true, but it misses one of the most important benefits
 about virtual environments: they **enable stress-free collaboration between developers and/or data scientists.**
 
-<img src="/assets/img/tea-party.png" width="500" height="345" style="float: right;margin-right: 10px;margin-top: 7px;">
+<img src="/assets/img/tea-party.png" width="500" height="344" style="float: right;margin-right: 10px;margin-top: 7px;">
 
 Let's say you're working on an awesome project on your local machine, and decide that you want to collaborate on it with
 a friend or a colleague. To do this, your collaborator needs some sort of information about how to replicate the
@@ -74,17 +74,18 @@ job, I highly recommend checking with your team to see if there is a standard or
 management at your company.
 
 ## 5. Opinions, everyone's got 'em: a case for using venv as a Data Scientist
-<img src="/assets/img/tea-cup-colors.png" width="400" height="345" style="float: left;margin-right: 15px;margin-top: 7px;">
-With the exception of data science projects that involve dealing with SciPy C-dependencies, my strong personal preference
-is to use `venv` to create and manage virtual environments (especially if the project is being deployed to production).
+<img src="/assets/img/tea-cup-colors.png" width="350" height="290" style="float: left;margin-right: 15px;margin-top: 7px;">
+My strong personal preference is to use `venv` to create and manage virtual environments (especially if the project is
+being deployed to production).
 
 A side note in favor of `conda` is that many popular data science Python packages have C or C++ dependencies, which can
 be tricky to deal with. `conda` takes the headache out of the process because it handles [packages written in any
 language](https://www.anaconda.com/understanding-conda-and-pip/) (not just Python).
 
-But, assuming that you're not working on a heavy duty machine learning project, `venv` is my vote. I'll follow up
-with details in a later post, but the short version is that a lot of the complexity-driven drawbacks of the other
-options aren't a problem in `venv`, given that it's a standard Python package in `python3`.
+However, assuming that you're not working on a heavy duty machine learning project, `venv`
+is my vote. I'll follow up with details in a later post, but the short version is that a lot of the complexity-driven
+drawbacks of `conda` and `pipenv` options aren't a problem in `venv`, given that it was added as a standard Python
+package in Python 3.3
 
 ## 6. Getting started with venv
 Alright, now that we've gotten through the primers, the real fun begins! Open a terminal, and follow the steps below
