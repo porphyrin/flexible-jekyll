@@ -4,7 +4,7 @@ title: Python Virtual Environments, Tea, and You!
 date: 2019-08-03 13:32:20 +0300
 description: # None for now.
 img: tea-cup.jpg
-tags: [virtual environments, tutorials]
+tags: [software development, virtual environments, tutorials]
 ---
 Recently I've been consolidating the things I wish I had known about when I was getting started in the field of data
 science. One of those things is - you guessed it - virtual environments in Python!
@@ -97,8 +97,7 @@ for.
 there is no need to pip install anything, and (2) that last venv is just the name of the virtual environment (we can
 name it anything we like, such as `python3 -m venv chai_tea`; the name "venv" just keeps things clear).
 3. Open up your project in your IDE; you should see a new directory in your project called `venv` (or whatever you
-named your new virtual environment). Nice work! (also, we can see that a virtual environment is really just a directory
-containing scrips - not so scary after all!)
+named your new virtual environment). Nice work!
 4. Activate your new environment: `source venv/bin/activate` (again, swap out the "venv" part for whatever you named
 your environment, if you named it something different)
 5. You should now see `(venv)` in the far left of your terminal screen.
@@ -112,6 +111,10 @@ their own and load the requirements from the requirements.txt file). So, add a l
 the name of your virtual environment directory is) to your .gitignore file.
 10. To get back out of the environment, simply enter the command `deactivate` - you'll notice that the `(venv)` on your
 terminal screen goes away to let you know you're "back to reality!"
+
+This might seem intimidating if you don't work from the command line often, but functionally all we've done is added a
+directory to the root level of our project with some scripts in it that we can run to let us activate and deactivate
+the environment. Not so scary after all!
 
 ## 7. And that's the tea!
 Takeaways from this tutorial:
