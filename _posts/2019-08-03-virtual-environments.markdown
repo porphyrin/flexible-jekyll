@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Virtual Environments, Tea, and You!
+title: An Introduction to Python Virtual Environments (with tea)
 date: 2019-08-03 13:32:20 +0300
 description: # None for now.
 img: tea-cup.jpg
@@ -32,7 +32,7 @@ The answer is that the teacups allowed you to add different versions of ingredie
 What the **teacups** are to you and your friend, **virtual environments** are to Python projects with different
 requirements.
 
-## 2. What is a virtual environment? continued - bringing this back to software
+## 2. Bringing this back to software
 Like you and your friend, Python projects often have different requirements. Projects depend on specific packages, and
 on specific versions of those packages. So how the heck do we work on projects with different requirements, if we only
 have one computer?
