@@ -1,16 +1,16 @@
 ---
 layout: post
-title: An Introduction to Python Virtual Environments (with tea)
+title: An Introduction to Python Virtual Environments
 date: 2019-08-03 13:32:20 +0300
 description: # None for now.
 img: tea-cup.jpg
 tags: [software development, virtual environments, tutorials]
 ---
-Recently I've been consolidating the things I wish I had known about when I was getting started in the field of data
+Recently I've been consolidating the things I wish I had known about when I was getting started in data
 science. One of those things is - you guessed it - virtual environments in Python!
 
 This post is intended as a gentle introduction to virtual environments for Data Scientists of any level who want to
-improve their development environment game (and read about tea, of course).
+improve their development environment game.
 
 ## 1. What is a virtual environment?
 If you Google search "what is a Python virtual environment" you will find something along the lines of "a tool to
@@ -46,7 +46,7 @@ Most tutorials on virtual environments focus on the benefits of keeping your per
 free from painful version-ing conflicts. This is absolutely true, but it misses one of the most important benefits
 about virtual environments: they **enable stress-free collaboration between developers and/or data scientists.**
 
-<img src="/assets/img/tea-party.png" width="500" height="344" style="float: right;margin-right: 10px;margin-top: 7px;">
+<img src="/assets/img/tea-party.png" width="500" height="320" style="float: right;margin-left: 15px;margin-right: 10px;margin-bottom: 7px;">
 
 Let's say you're working on an awesome project on your local machine, and decide that you want to collaborate on it with
 a friend or a colleague. To do this, your collaborator needs some sort of information about how to replicate the
@@ -74,7 +74,7 @@ job, I highly recommend checking with your team to see if there is a standard or
 management at your company.
 
 ## 5. Opinions, everyone's got 'em: a case for using venv as a Data Scientist
-<img src="/assets/img/tea-cup-colors.png" width="350" height="290" style="float: left;margin-right: 15px;margin-top: 7px;">
+<img src="/assets/img/tea-cup-colors.png" width="350" height="290" style="float: left;margin-right: 15px;margin-bottom: 7px;">
 My strong personal preference is to use `venv` to create and manage virtual environments (especially if the project is
 being deployed to production).
 
@@ -89,12 +89,12 @@ package in Python 3.3
 
 ## 6. Getting started with venv
 Alright, now that we've gotten through the primers, the real fun begins! Open a terminal, and follow the steps below
-to create your virtual environment in `venv` (note that these are written assuming macOS):
+to create your virtual environment in `venv` (note that the steps below assume macOS):
 
 1. Create a new project, or `cd` into the root of an existing project that you'd like to create a virtual environment
 for.
 2. Create a new virtual environment: `python3 -m venv venv`. Note that: (1) `venv` is included in python3 by default so
-there is no need to pip install anything, and (2) that last venv is just the name of the virtual environment (we can
+there is no need to pip install anything, and (2) that second "venv" is just the name of the virtual environment (we can
 name it anything we like, such as `python3 -m venv chai_tea`; the name "venv" just keeps things clear).
 3. Open up your project in your IDE; you should see a new directory in your project called `venv` (or whatever you
 named your new virtual environment). Nice work!
@@ -109,7 +109,7 @@ add your requirements and their versions to a requirements.txt file (you can alw
 9. If this is a git repo, we'd like to _not_ commit the virtual environment (your collaborators will be able to create
 their own and load the requirements from the requirements.txt file). So, add a line with just the text venv (or whatever
 the name of your virtual environment directory is) to your .gitignore file.
-10. To get back out of the environment, simply enter the command `deactivate` - you'll notice that the `(venv)` on your
+10. To get back out of the environment, simply enter the command `deactivate`. You'll notice that the `(venv)` on your
 terminal screen goes away to let you know you're "back to reality!"
 
 This might seem intimidating if you don't work from the command line often, but functionally all we've done is added a
@@ -118,12 +118,12 @@ the environment. Not so scary after all!
 
 ## 7. And that's the tea!
 Takeaways from this tutorial:
-1. Virtual environments are a powerful tool for keeping your local development environment flexible, and for
-collaborating with other data scientists / software engineers.
-2. `venv` is my top pick for creating and managing environments, but in the case of projects with C-dependencies (see
-many of the SciPy packages), `conda` is a good alternative.
-3. `requirements.txt` files are your friend (if not using `pipenv`).
+1. Virtual environments are a **powerful tool for keeping your local development environment flexible, and for
+collaborating with other data scientists / software engineers.**
+2. **`venv` is my favorite tool for creating and managing environments**, but in the case of projects with
+C-dependencies (see many of the SciPy packages), `conda` is a good alternative.
+3. **`requirements.txt` files are your friend** (if not using `pipenv`).
 
-Thanks for reading, now go reward yourself with a cup of tea for making it through the tutorial!
+Thanks for reading! (Now go reward yourself with a cup of tea for making it through the tutorial).
 
 ![tea-party](/assets/img/tea-mood.png)
